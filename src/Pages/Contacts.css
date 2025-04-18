@@ -1,0 +1,7 @@
+.contacts-page {
+    background-color: #B0D2F1;
+    min-height: 100vh;
+    padding: 100px 20px 20px; /* 100px сверху для хедера */
+    margin-top: 0;
+    box-sizing: border-box;
+  }
