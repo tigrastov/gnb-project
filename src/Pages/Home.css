@@ -1,9 +1,79 @@
+.home-page {
+  background-image: url('/bgHome.jpeg');
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Главное изменение - вертикальное направление */
+  align-items: center; /* Центрирование по горизонтали */
+  padding-top: 20px;
+}
+
+.about-company {
+  width: 90%;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(251, 251, 251, 0.6);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 120px;
+  margin-bottom: 30px; /* Добавляем отступ снизу */
+  color: rgb(4, 30, 57);
+
+}
+
+.tools {
+  width: 90%;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(251, 251, 251, 0.6);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: rgb(4, 30, 57);
+  margin-bottom: 30px; /* Отступ снизу для второго блока */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title-about {
+  color: rgb(4, 30, 57);
+
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 27px;
+}
+
+.company-description {
+  color: rgb(4, 30, 57);
+
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(4, 30, 57);
+
+}
+
+.recviz{
+
+  width: 90%;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(251, 251, 251, 0.6);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: rgb(4, 30, 57);
+  margin-bottom: 30px; /* Отступ снизу для второго блока */
+  font-size: 18px;
+  font-weight: bold;
+}
 
 
-  .home-page {
-    background-color: white;
-    min-height: 100vh;
-    padding: 100px 20px 20px; /* 100px сверху для хедера */
-    margin-top: 0;
-    box-sizing: border-box;
-  }
+
+
+
+.equipment-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1.3); }
+}

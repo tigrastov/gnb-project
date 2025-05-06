@@ -1,0 +1,126 @@
+.equipment-page {
+    background-image: url('/bgAuto.jpeg');
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Главное изменение - вертикальное направление */
+  align-items: center; /* Центрирование по горизонтали */
+  padding-top: 100px;
+  
+  }
+  
+  .equipment-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  
+
+
+  .truck-1{
+    width: 90%;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(251, 251, 251, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 30px; /* Добавляем отступ снизу */
+  color: rgb(4, 30, 57);
+  font-weight: bold;
+  display: grid;
+    grid-template-columns: 2fr 1fr; /* Две колонки */
+  gap: 30px;
+  }
+  .img-1{
+width: 300px;
+height: auto;
+border-radius: 16px;
+
+  }
+
+
+  .truck-2{
+    width: 90%;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgba(251, 251, 251, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 30px; /* Добавляем отступ снизу */
+    color: rgb(4, 30, 57);
+    font-weight: bold;
+    display: grid;
+      grid-template-columns: 2fr 1fr; /* Две колонки */
+    gap: 30px;
+  }
+  .img-2{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+      }
+
+  .truck-3{
+    width: 90%;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(251, 251, 251, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 30px; /* Добавляем отступ снизу */
+  color: rgb(4, 30, 57);
+  font-weight: bold;
+  display: grid;
+    grid-template-columns: 2fr 1fr; /* Две колонки */
+  gap: 30px;
+  }
+  .img-3{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+      }
+
+  .truck-4{
+    width: 90%;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgba(251, 251, 251, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 30px; /* Добавляем отступ снизу */
+  color: rgb(4, 30, 57);
+  font-weight: bold;
+  display: grid;
+    grid-template-columns: 2fr 1fr; /* Две колонки */
+  gap: 30px;
+  }
+  .img-4{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+      }
+
+  .truck-5{
+    width: 90%;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgba(251, 251, 251, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 30px; /* Добавляем отступ снизу */
+    color: rgb(4, 30, 57);
+    font-weight: bold;
+    display: grid;
+      grid-template-columns: 2fr 1fr; /* Две колонки */
+    gap: 30px;
+  }
+  .img-5{
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+      }
+  
+  
