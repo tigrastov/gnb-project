@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Header from './Components/Header';
 import Home from './Pages/Home';
@@ -32,6 +32,8 @@ function App() {
           <Route path="/info" element={<Info />} />
           <Route path="/our-works" element={<OurWorks />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="*" element={<Navigate to="/" />} />
+
         </Routes>
       </main>
     </Router>
