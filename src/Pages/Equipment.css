@@ -35,11 +35,31 @@
     grid-template-columns: 2fr 1fr; /* Две колонки */
   gap: 30px;
   }
-  .img-1{
-width: 300px;
-height: auto;
-border-radius: 16px;
+  
+  .img-1 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+  }
 
+  @media (max-width: 768px) {
+    .truck-1 {
+      grid-template-columns: 1fr; /* Одна колонка */
+      gap: 20px;
+      padding: 20px;
+    }
+    
+    .img-1 {
+      max-width: 100%;
+      order: 2; /* Перемещаем изображение под текст */
+      margin-top: 15px;
+    }
+    
+    .truck-1 p {
+      order: 1; /* Текст остается сверху */
+    }
   }
 
 
@@ -63,6 +83,28 @@ border-radius: 16px;
     border-radius: 16px;
       }
 
+
+      @media (max-width: 768px) {
+        .truck-2 {
+          grid-template-columns: 1fr; /* Одна колонка */
+          gap: 20px;
+          padding: 20px;
+        }
+        
+        .img-2 {
+          max-width: 100%;
+          order: 2; /* Перемещаем изображение под текст */
+          margin-top: 15px;
+        }
+        
+        .truck-2 p {
+          order: 1; /* Текст остается сверху */
+        }
+      }
+
+
+
+
   .truck-3{
     width: 90%;
   padding: 30px;
@@ -81,6 +123,24 @@ border-radius: 16px;
     width: 300px;
     height: auto;
     border-radius: 16px;
+      }
+
+      @media (max-width: 768px) {
+        .truck-3 {
+          grid-template-columns: 1fr; /* Одна колонка */
+          gap: 20px;
+          padding: 20px;
+        }
+        
+        .img-3 {
+          max-width: 100%;
+          order: 2; /* Перемещаем изображение под текст */
+          margin-top: 15px;
+        }
+        
+        .truck-3 p {
+          order: 1; /* Текст остается сверху */
+        }
       }
 
   .truck-4{
@@ -103,6 +163,24 @@ border-radius: 16px;
     border-radius: 16px;
       }
 
+      @media (max-width: 768px) {
+        .truck-4 {
+          grid-template-columns: 1fr; /* Одна колонка */
+          gap: 20px;
+          padding: 20px;
+        }
+        
+        .img-4 {
+          max-width: 100%;
+          order: 2; /* Перемещаем изображение под текст */
+          margin-top: 15px;
+        }
+        
+        .truck-4 p {
+          order: 1; /* Текст остается сверху */
+        }
+      }
+
   .truck-5{
     width: 90%;
     padding: 30px;
@@ -122,5 +200,21 @@ border-radius: 16px;
     height: auto;
     border-radius: 16px;
       }
-  
+      @media (max-width: 768px) {
+        .truck-5 {
+          grid-template-columns: 1fr; /* Одна колонка */
+          gap: 20px;
+          padding: 20px;
+        }
+        
+        .img-5 {
+          max-width: 100%;
+          order: 2; /* Перемещаем изображение под текст */
+          margin-top: 15px;
+        }
+        
+        .truck-5 p {
+          order: 1; /* Текст остается сверху */
+        }
+      }
   
